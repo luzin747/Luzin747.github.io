@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+.nav-container h1 {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 25pt;
+
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px 10% 0px 10%;
+
+
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-container ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container ul li {
+
+    margin: 5px 15px;
+    font-size: 14pt;
+    padding: 15px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 70px;
+
+
+}
+
+.nav-container ul li:hover {
+    background-color: black;
+    transition: 0.3s;
+    font-weight: 450;
+    color: white;
+}
+
+.git-icon {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+}
+
+.header {
+    margin: 10% 5%;
+    display: flex;
+    justify-content: space-around
+}
+
+.header p:first-child {
+    font-size: 18pt;
+    margin-bottom: -16px;
+}
+
+.header h1 {
+    font-size: 50pt;
+}
+
+.header p:last-child {
+    font-size: 15pt;
+
+}
+
+.header img {
+    width: 350px;
+    margin-top: -3%;
+}
+
+h4 {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+h4 a {
+    color: black;
+}
+
+h4 a:hover {
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.projetos {
+    display: flex;
+
+
+}
+
+.projetos a {
+    color: black;
+}
+
+.projetos {
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.projetos div {
+    margin: 10px 40px 40px 40px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 30px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.507);
+
+}
+
+.projetos div img {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 500px;
+    object-fit: contain;
+    border-radius: 3%;
+
+
+}
+
+.img-moderno-movies {
+    box-shadow: 0px 0px 50px rgba(20, 20, 20, 0.719);
+}
+
+.projetos div img:hover {
+    width: 510px;
+    transition: 0.5s;
+}
+
+.img-zennor {
+    box-shadow: 0px 0px 20px rgba(99, 135, 139, 0.877);
+}
+
+.img-etec-redes-1 {
+    box-shadow: 0px 0px 20px rgba(89, 111, 184, 0.719);
+}
+
+.img-site-senai-01 {
+    box-shadow: 0px 0px 20px rgba(92, 105, 93, 0.719);
+}
+
+
+
+
+.projetos div p {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-size: 15pt;
+
+}
+
+.projetos div a {
+    text-align: center;
+    color: rgb(66, 64, 167);
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+.projetos div a:hover {
+    color: rgba(66, 64, 167, 0.699);
+}
+
+
+
+.learn-container h3 {
+    margin-left: 3%;
+    font-size: 17pt;
+    margin-top: 1%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.cards div {
+    border: 0px solid rgba(0, 0, 0, 0.397);
+    width: 500px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(114, 111, 111);
+    background-color: rgb(252, 251, 251);
+    color: rgb(0, 0, 0);
+}
+
+.cards img {
+    width: 25%;
+    margin-left: 38%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+
+}
+
+
+.cards p {
+    width: 100%;
+    text-align: justify;
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.cards p:nth-child(2) {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: 900;
+}
