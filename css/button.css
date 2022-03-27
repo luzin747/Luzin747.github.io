@@ -1,77 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
-    display: grid;
-    height: 100%;
-    place-items: center;
-    background: #ecf0f3;
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 10px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #33c740;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #5865F2
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #33c740;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #5865F2
 }
 
-.icons a {
-    background: #ecf0f3;
-    position: relative;
-    height: 60px;
-    width: 60px;
-    margin: 0 10px;
-    display: inline-flex;
+.button a {
+    color: black;
     text-decoration: none;
-    border-radius: 50%;
-    transition: all 0.3s;
-    box-shadow: -3px -3px 7px #ffffff,
-        3px 3px 5px #ceced1;
 }
 
-.icons a:hover:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border-radius: 50%;
-    background: #ecf0f3;
-    box-shadow: inset -3px -3px 7px #ffffff,
-        inset 3px 3px 5px #ceced1;
-}
-
-.icons a i {
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    line-height: 60px;
-}
-
-.icons a:hover i {
-    transform: scale(0.9);
-}
-
-.icons a.fb i {
-    color: #4267B2;
-}
-
-.icons a.twitter i {
-    color: #1DA1F2;
-}
-
-.icons a.insta i {
-    color: #E1306C;
-}
-
-.icons a.git i {
-    color: #333;
-}
-
-.icons a.yt i {
-    color: #ff0000;
-}
